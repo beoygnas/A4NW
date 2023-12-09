@@ -1,0 +1,8 @@
+# data
+image: "data/image.png"
+prompt: a photo of traumatic, miserable, painful, wounded man
+negative_prompt: blurry, unrealistic, low res, not human, cartoon, ugly
+attention_threshold: 0.8
+feature_threshold: 0.8
+steps_pnp: 25
+steps_preprocess: 50
