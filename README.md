@@ -14,7 +14,7 @@
 ## 방법론
 
 - 평범한 얼굴에 '전쟁'이라는 style을 입히는 모델을 만들고자 하였습니다.
-- <p align="center"><img alt="pipeline" src="assets/bluring_techniques.png" width="80%" /></p>
+  <p align="center"><img alt="pipeline" src="assets/img1.png" width="80%" /></p>
 - 위 이미지에 표현되어 있듯이, 2가지 파이프라인으로 진행하였습니다.
   1) style feature를 이미지에서 추출
   2) style feature를 텍스트에서 추출 
@@ -22,10 +22,10 @@
 
 
 - **Model 1. StyleGAN2-based** StyleGAN2는 Styel transfer의 대표적인 모델인 StyleGAN에서 일부 문제를 개선한 모델입니다. input image(평범한 얼굴)과 style image(전쟁 이미지)를 입력하면 style image에서 style을 추출하여 원하는 style을 가진 이미지를 생성합니다. discriminator의 판별 성능과 함께 generator가 전쟁 style에 가까운 얼굴 이미지를 생성할 수 있도록 학습합니다.
-<p align="center"><img alt="Attention R2U-Net Learning Curve" src="assets/attnr2unet_learning_curve.png" width="80%" /></p>
+<p align="center"><img alt="Attention R2U-Net Learning Curve" src="assets/img2.png" width="80%" /></p>
 
 - **Model 2. Diffusion-based** Plug and Play Diffusion은 input image(평범한 얼굴)과 style text(전쟁 관련 키워드)를 입력하면 text에서 style을 추출하여 원하는 style을 가진 이미지를 생성합니다. Stable-Diffusion 기반의 모델이며, 학습이 필요하지 않습니다.
-<p align="center"><img alt="Robust U-Net Learning Curve" src="assets/robustunet_learning_curve.png" width="50%" /></p>
+<p align="center"><img alt="Robust U-Net Learning Curve" src="assets/img3.png" width="50%" /></p>
 
 ## 환경 설정
 
