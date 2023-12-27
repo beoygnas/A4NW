@@ -25,7 +25,7 @@
 <p align="center"><img alt="Attention R2U-Net Learning Curve" src="assets/img2.png" width="80%" /></p>
 
 - **Model 2. Diffusion-based** Plug and Play Diffusion은 input image(평범한 얼굴)과 style text(전쟁 관련 키워드)를 입력하면 text에서 style을 추출하여 원하는 style을 가진 이미지를 생성합니다. Stable-Diffusion 기반의 모델이며, 학습이 필요하지 않습니다.
-<p align="center"><img alt="Robust U-Net Learning Curve" src="assets/img3.png" width="50%" /></p>
+<p align="center"><img alt="Robust U-Net Learning Curve" src="assets/img3.png" width="80%" /></p>
 
 ## 환경 설정
 
