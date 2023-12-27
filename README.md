@@ -86,4 +86,4 @@ python3 pnp.py --config_path='config_pnp.yaml'
 
 ## 예시 결과
 
-<p align="center"><img alt="Robust U-Net Learning Curve" src="assets/img5.png" width="80%" /></p>
+<p align="center"><img src="assets/img5.png" width="80%" /></p>
