@@ -78,4 +78,12 @@ cd pnp_diffusers
 python3 pnp.py --config_path='config_pnp.yaml'
 ```
 
+## 프로젝트 데모
+
+[**데모 사이트**](http://124.197.159.108:8503/)
+
+`streamlit`, `fastapi` 라이브러리를 이용해 간단한 데모서버를 제작했습니다. batch size를 2로 하여, 한 장의 이미지에 대해 두 가지 버젼의 전쟁을 겪은 사진을 제공합니다. 넉넉치 않은 환경에서 inference 서버를 운영하고 있기 때문에, 이미지 두 장을 생성하는데에 약 1분정도의 시간이 걸립니다.
+
 ## 예시 결과
+
+<p align="center"><img alt="Robust U-Net Learning Curve" src="assets/img5.png" width="80%" /></p>
