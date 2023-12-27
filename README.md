@@ -41,7 +41,10 @@
 
   ```bash
   cd stylegan2-based
-  python 
+  wget https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip
+  sudo unzip ninja-linux.zip -d /usr/local/bin/
+  sudo update-alternatives --install /usr/bin/ninja ninja /usr/local/bin/ninja 1 --force
+  python stylegan_inference.py --style victim --batch 4
   ```
 
 - Model 2. Diffusion-based
