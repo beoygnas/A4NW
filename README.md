@@ -86,6 +86,7 @@ python3 pnp.py --config_path='config_pnp.yaml'
 
 ## 예시 결과
 
-<img src="assets/img6.png" width="50%" />
-<img src="assets/img7.png" width="48.5%" />
-<p align="center"><img src="assets/img5.png" width="80%" /></p>
+<img src="assets/img6.png" width="49%" height="49%">
+<img src="assets/img7.png" width="49%" height="49%">
+
+<img src="assets/img5.png">
